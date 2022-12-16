@@ -1,0 +1,77 @@
+.Info {
+    .personalInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            width: 50%;
+        }
+    }
+
+    .skills,
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 5.5rem;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                list-style: none;
+                width: 18%;
+                margin-bottom: 1rem;
+
+                p {
+                    margin-bottom: 0.1rem;
+                }
+
+                .baseKnowledge {
+                    font-size: 10px;
+                }
+
+                svg {
+                    width: 60px;
+                    height: auto;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    .contact {
+        ul {
+            margin-left: 0;
+
+            li {
+                width: 50%;
+
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    color: inherit;
+                }
+
+                a:hover {
+                    color: purple;
+                }
+
+            }
+
+
+            li:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+}
